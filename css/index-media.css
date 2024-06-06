@@ -1,0 +1,14 @@
+.container{
+   flex-direction: column;
+   width: 100%;
+   
+}
+
+.img-con{
+max-width: 100%;   
+ }
+ 
+ .about, .skills, .projects, .certification{
+   max-width: 100%;
+   
+ }

@@ -1,0 +1,46 @@
+
+body{
+   width: 100%;
+}
+#container{
+   flex-direction: column;
+   flex-flow: column-reverse;
+
+   }
+
+   .lf-con{
+      border: none;
+   }
+
+   .lf-con .img-con{
+      display: none;
+   }
+
+   .rg-con .img-con{
+      display: flex;
+      justify-content: center;
+   }
+
+   .al-cen{
+     text-align: center;
+   }
+  
+  .lf-con .fl-row{
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   .lf-con .contact{
+      display: none;
+   }
+
+   .contact-end h3{
+         padding-bottom: 20px;
+   }
+
+  .contact-end{
+   padding: 40px 20px 20px 40px;
+   display: block;
+   background-color: rgb(2, 2, 124);
+   color: white;
+  }

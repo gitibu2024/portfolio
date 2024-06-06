@@ -1,0 +1,175 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+body{
+   text-align: left;
+   background-color: bisque;
+   width: 80%;
+   margin: 0 auto;
+   font-size: medium;
+}
+
+.italic{
+   font-style: italic;
+}
+
+.smaller{
+   font-size: smaller;
+}
+
+.pad-tp-24{padding-top: 24px;}
+
+.lh-16{line-height: 16px;}
+.lh-20{line-height: 20px;}
+.lh-24{line-height: 24px;}
+.lh-28{line-height: 28px;}
+.rect-blue{
+   background-color: rgb(2, 2, 124);
+   height: 30px;
+   /* margin-bottom: 15px; */
+}
+
+#container{
+   display: flex;
+   background-color: white;
+   color: rgb(2, 2, 124);
+  }
+
+.lf-con, .rg-con{
+   margin-top: 25px;
+   padding:20px 10px;
+}
+/* .contact{
+   width: 100%;
+} */
+
+
+
+.lf-con{
+   border-right: 3.5px rgb(2, 2, 124) solid;
+}
+
+.lf-con .fb2{
+   justify-content: right;
+}
+
+.box  {
+   padding:20px 10px;
+}
+
+.box li{
+   list-style: none;
+   padding:10px 0 5px 15px;
+}
+
+.lf-con .img-con{
+  
+ display: flex;
+ justify-content: center;
+ margin-bottom: 20px;
+}
+
+.rg-con .img-con{
+   display: none;
+}
+
+.contact{
+   padding: 15px 0 15px 10px;
+}
+
+.contact-end{display: none;}
+
+.fb-con{
+   display: flex;
+   padding:10px 0 5px 15px;
+}
+
+
+
+/* .fb2{
+   width: 100%;
+   display: flex;
+   justify-content: left;
+} */
+
+.logo{
+   width: 18px;
+   height: 18px;
+   }
+
+.round-image{
+   width: 180px;
+   height: 180px;
+   border-radius: 50%;
+   border: 2px black solid;      
+}
+
+
+.exp-box{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding:15px 0;
+   flex-grow: 1;
+  }
+
+  .exp-box .fb2{
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   align-content: stretch;
+  }
+
+.parag{
+   line-height: 25px;
+   padding:15px 0;
+   text-align: justify;
+}
+
+.rg-con .myname{
+   color: rgb(4, 200, 20);
+}
+
+
+
+/* Certification */
+
+.certis{
+   padding: 20px;
+   background-color: white;
+   color:rgb(2, 2, 124) ;   
+}
+
+.certi{
+   padding:  20px 0 0 10px;
+   display: flex;
+   justify-content: space-between;
+   /* border: 1px black solid; */
+}
+
+.cname-provider{
+   flex-basis: 400px;
+   flex-grow: 1;
+}
+
+.url-link{
+   flex-grow: 1;
+}
+
+
+.cname-provider .cname{
+    font-weight:bold;
+}
+
+.web-link-logo{
+   width: 25px;
+   height: 25px;
+}
+
+
+
