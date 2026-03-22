@@ -30,6 +30,14 @@ body {
   padding-left: 10px;
  }
 
+b{
+  font-weight:bold;
+}
+
+u{
+text-decoration:underline;
+}
+
  p{
   padding: 10px;
   
