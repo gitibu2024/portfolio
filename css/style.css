@@ -225,6 +225,7 @@ text-decoration:underline;
 
 .url-link{
   flex-grow: 1;
+  pointer-events: auto;
 }
 
 
