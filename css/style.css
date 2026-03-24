@@ -228,6 +228,10 @@ text-decoration:underline;
   pointer-events: auto;
 }
 
+.url-link a {
+display:inline-block;
+}
+
 
 .cname-provider .cname{
    font-weight:bold;
@@ -236,6 +240,7 @@ text-decoration:underline;
 .web-link-logo{
   width: 25px;
   height: 25px;
+  cursor:pointer;
 }
 
 .exp-box{
